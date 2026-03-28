@@ -11,6 +11,8 @@ description:      'Biostatistics Student'
 url:              https://akifiips.github.io
 baseurl:          ""
 
+avatar: /assets/images/profile.png
+
 author:
   name:           'Akif Mustafa'
   url:            https://github.com/akifiips
