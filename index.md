@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: About Me
 ---
+# About Me
 
 I am I Akif Mustafa a Statistician at GSK. I am a PhD in Biostatistics and My work lies at the intersection of statistical theory, computational methods, and practical decision-making in drug development, with a focus on improving efficiency, interpretability, and robustness of clinical evidence generation.
 
