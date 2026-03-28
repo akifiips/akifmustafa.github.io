@@ -6,14 +6,13 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Your Name
-tagline:          'My Personal Website'
-description:      'Portfolio and blog.'
+title:            Akif Mustafa
+description:      'Biostatistics Student'
 url:              https://akifiips.github.io
 baseurl:          ""
 
 author:
-  name:           'Your Name'
+  name:           'Akif Mustafa'
   url:            https://github.com/akifiips
 
 paginate:         5
