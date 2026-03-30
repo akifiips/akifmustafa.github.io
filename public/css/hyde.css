@@ -150,11 +150,19 @@ html, body, h1, h2, h3, h4, h5, h6, p, a, .sidebar, .sidebar-about h1 {
   }
 }
 
-/* 3. Fix Sidebar Cut-off on Small Screens */
-.sidebar {
-  overflow-y: auto !important; /* Adds a scrollbar ONLY if the screen is too short */
-  -webkit-overflow-scrolling: touch; /* Makes scrolling smooth on touchscreens */
-  padding-top: 2rem; /* Ensures the picture always has breathing room at the top */
+/* 3. Fix Sidebar Cut-off & Anchoring on Small Screens */
+@media (min-width: 48em) {
+  .sidebar {
+    overflow-y: auto !important; 
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* This forces the content to start at the top, not the bottom */
+  .sidebar-sticky {
+    position: static !important; 
+    padding-top: 3rem; 
+    padding-bottom: 2rem;
+  }
 }
 
 /*
